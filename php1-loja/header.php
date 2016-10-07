@@ -8,6 +8,22 @@
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-	<header class="header">
+
+	<header class="navbar navbar-inverse navbar-top">
 		<div class="container">
-			<div class="main-content">
+			<div class="navbar-header">
+				<a href="index.php" class="navbar-brand">My Store</a>
+			</div>
+			<div class="menu">
+				<ul class="nav navbar-nav">
+					<li><a href="produto-formulario.php">Adiciona produto</a></li>
+					<li><a href="sobre.php">Sobre</a></li>
+					<li><a href="produtos-lista.php">Produtos</a></li>
+					<li><a href=""></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<div class="container content">
+		<div class="main-content">
