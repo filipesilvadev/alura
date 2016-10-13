@@ -10,7 +10,11 @@
 				<td><input class="form-control" type="number" name="price"></td>
 			</tr>
 			<tr>
-			<td><input class="btn btn-primary" type="submit" value="Cadastrar"></td>
+				<td>Descrição:</td>
+				<td><textarea name="description" class="form-control"></textarea></td>
+			</tr>
+			<tr>
+				<td><input class="btn btn-primary" type="submit" value="Cadastrar"></td>
 			</tr>
 		</table>
 	</form>
