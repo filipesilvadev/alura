@@ -1,5 +1,5 @@
 <?php include("header.php") ?>
-	<form action="adiciona-produto.php">
+	<form action="adiciona-produto.php" method="post">
 		<table class="table">
 			<tr>
 				<td>Nome:</td>

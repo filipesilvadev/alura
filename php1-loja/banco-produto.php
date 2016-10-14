@@ -9,7 +9,7 @@ function listaProdutos($connect) {
 }
 
 function insereProduto($connect, $name, $price, $description) {
-	$query = "INSERT INTO PRODUCTS (NAME, PRICE, DESCRIPTION) VALUES ('{$name}', {$price}, {$description})";
+	$query = "INSERT INTO PRODUCTS (NAME, PRICE, DESCRIPTION) VALUES ('{$name}', {$price}, '{$description}')";
 	return mysqli_query($connect, $query);
 }
 

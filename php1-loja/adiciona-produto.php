@@ -3,9 +3,9 @@
 	include("connect.php");
 	include("banco-produto.php");
 	
-	$name  = isset($_GET["name"])?$_GET["name"]:"Anônimo";
-	$price = $_GET["price"];
-	$description = $_GET["description"];
+	$name  = isset($_POST["name"])?$_POST["name"]:"Anônimo";
+	$price = $_POST["price"];
+	$description = $_POST["description"];
 
 	 if(insereProduto($connect, $name, $price, $description)){ ?>
 		<p class="alert-success">Produto <?=$name?>, <?=$price?> adicionado com sucesso!</p>
